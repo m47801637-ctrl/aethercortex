@@ -1,6 +1,5 @@
 {
   "name": "aether-cortex",
   "version": "1.0.0",
-  "type": "module",
-  "main": "api/chat.js"
+  "type": "module"
 }
