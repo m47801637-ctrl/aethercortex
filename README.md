@@ -44,3 +44,54 @@ aether-cortex/
 ├── package.json         # Dependencies & Config
 ├── vercel.json          # Route Rewrites & Vercel Deployment Rules
 └── README.md            # Project Documentation
+```
+🚀 Getting Started
+Prerequisites
+Node.js (v18 or higher)
+
+Git
+
+NVIDIA NIM API Key (or OpenRouter/OpenAI compatible endpoint)
+
+Local Development Setup
+Clone the repository:
+
+Bash
+git clone [https://github.com/YOUR_USERNAME/aether-cortex.git](https://github.com/YOUR_USERNAME/aether-cortex.git)
+cd aether-cortex
+Install dependencies:
+
+Bash
+npm install
+Run locally (using Vercel CLI):
+
+Bash
+npx vercel dev
+Open http://localhost:3000 in your browser.
+
+🌐 Deploy to Vercel
+Push your code to GitHub:
+
+Bash
+git add .
+git commit -m "Deploying to Vercel"
+git push -u origin main
+Go to Vercel Dashboard and click "Add New Project".
+
+Import your GitHub repository.
+
+Leave Framework Preset as Other and hit Deploy.
+
+🔑 How to Use
+Launch the Web App.
+
+Enter a temporary Username to create your local session.
+
+In the sidebar, paste your NVIDIA API Key (nvapi-...).
+
+Select your preferred model (e.g., DeepSeek R1 or Llama 3.3 70B).
+
+Upload a document (PDF/Word) or start typing your prompt!
+
+📝 License
+Distributed under the MIT License. See LICENSE for more information.
