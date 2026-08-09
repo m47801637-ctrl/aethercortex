@@ -1,1 +1,7 @@
-api/\npublic/\npackage.json\npackage-lock.json\n
+# Include sources for Vercel deployment
+# Exclude local artifacts only
+node_modules/
+.vercel/
+*.log
+.DS_Store
+
